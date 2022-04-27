@@ -1,0 +1,1 @@
+./aloha -n 1000 -c 100 -q 30 -z 60s -o csv -m GET -H "AAA: 1" -H "BBB: 2"  -t 30 -A -d  -T "test/jsonjson/" -U "heheihei/11" -a "admin:123" -x "10.10.10.10:9999" -h2 -host www.baidu.com -disable-compression -disable-keepalive -disable-redirects -cpus 10 -cert cert.file -key key.file -urlfile url.file -url aaaaa.com -r 10 -rs 3 -pl "{aaa: 1}" -plfile "plfile.sss"
